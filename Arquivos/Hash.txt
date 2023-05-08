@@ -1,0 +1,1 @@
+String arquivo; String hash

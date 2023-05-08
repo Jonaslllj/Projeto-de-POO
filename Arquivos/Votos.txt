@@ -1,0 +1,1 @@
+String numeroCandidato; long numeroVotos; String hash

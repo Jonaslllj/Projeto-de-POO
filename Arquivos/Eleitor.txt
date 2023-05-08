@@ -1,0 +1,1 @@
+String e_numero; String cpf; String nome; String senha; String hash
