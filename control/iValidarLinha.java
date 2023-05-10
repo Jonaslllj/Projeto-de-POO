@@ -1,4 +1,4 @@
-package ElementosUrna;
+package control;
 public interface iValidarLinha {
 
         //public boolean validar(String c_numero, String cpf, String nome, String hash);
