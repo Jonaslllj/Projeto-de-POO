@@ -1,1 +1,1 @@
-String e_numero; String cpf; String nome; String senha; String hash
+String nome; String cpf; String senha; boolean votou; String hash
