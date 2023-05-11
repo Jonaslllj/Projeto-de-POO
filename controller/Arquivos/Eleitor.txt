@@ -1,0 +1,4 @@
+String nome; String cpf; boolean votou; String hash
+
+maria;12345678911;false;a4b900a5a8b2c88083045e1982c3c859181a830dd540c2c7a51d617450e4bebd
+joao;12345678912;false;dbc400df260162ad64355d6b7bc41c46042b5897f45bad470ba0ea4d59fa799e

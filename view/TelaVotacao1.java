@@ -1,6 +1,6 @@
-package Interface;
+package view;
 
-import java.awt.FlowLayout;
+
 import java.awt.GridLayout;
 
 import javax.swing.ImageIcon;

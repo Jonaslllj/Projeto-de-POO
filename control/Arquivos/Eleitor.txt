@@ -1,1 +1,0 @@
-String nome; String cpf; String senha; boolean votou; String hash

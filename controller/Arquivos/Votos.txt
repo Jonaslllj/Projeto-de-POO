@@ -1,0 +1,1 @@
+String c_numero; long numeroVotos; String hash

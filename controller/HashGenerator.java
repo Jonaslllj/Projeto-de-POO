@@ -1,4 +1,4 @@
-package ElementosUrna;
+package controller;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -42,5 +42,44 @@ public class HashGenerator {
 		    return hexString.toString();
 		  }
 
+public static void main(String[] args) {
+	
+	File eleitorFile = new File("controller\\Arquivos\\Eleitor.txt" );
+	try {
+		String validEleitorFile = generateHash(eleitorFile);
+		System.out.println(validEleitorFile);
+	} catch (NoSuchAlgorithmException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+	File candidatoFile = new File("controller\\Arquivos\\Candidato.txt" );
+	try {
+		String validCandidatoFile = generateHash(candidatoFile);
+		System.out.println(validCandidatoFile);
+	} catch (NoSuchAlgorithmException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+	/*File eleitorFile = new File("controller\\Arquivos\\Votos.txt" );
+	try {
+		String validEleitorFile = generateHash(eleitorFile);
+		System.out.println(validEleitorFile);
+	} catch (NoSuchAlgorithmException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}*/
+
+}
 }
 

@@ -1,1 +1,0 @@
-String c_numero; String cpf; String nome; String hash
